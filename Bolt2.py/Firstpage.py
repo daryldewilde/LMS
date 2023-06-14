@@ -35,7 +35,7 @@ class Welcome:
 
         # x, y = 70, 20
 
-        self.image = ImageTk.PhotoImage(Image.open("C:\\Users\\Nikith\\PycharmProjects\\Bolt2.py\\images\\lms.png"))
+        self.image = ImageTk.PhotoImage(Image.open("images/lms.png"))
         self.label = Label(self.frame, image=self.image)
         self.label.pack()
 

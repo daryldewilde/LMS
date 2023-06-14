@@ -95,7 +95,7 @@ def FacultyRet():
     x.add_frame()
 
 
-url = 'http://localhost:63342/Bolt2.py/images/ourteam.html?_ijt=uphcd7jfa694pbj9rhqgn15sag'
+url = 'file:///home/daryl/Desktop/COURSES/git_repos/LMS/Bolt2.py/images/ourteam.html'
 
 
 def OpenUrl():
@@ -158,8 +158,6 @@ class ThirdWindow:
         self.mainmenu.add_cascade(label="VIEW BY", menu=self.third)
         self.third.add_command(label="VIEW BY STUDENT DETAILS", command=ViewStudents)
         self.third.add_separator()
-        self.third.add_command(label="VIEW BY FACULTY DETAILS", command=FacultyDetails)
-        self.third.add_separator()
         self.third.add_command(label="VIEW BY BOOK DETAILS", command=ViewBooks)
         self.third.add_separator()
         self.third.add_command(label="VIEW BY STUDENT BOOK_LENDING", command=ViewLending)
@@ -173,7 +171,7 @@ class ThirdWindow:
         self.four.add_separator()
         self.four.add_command(label="DELETING STUDENT DETAILS", command=DeleteStudents)
         self.four.add_separator()
-        self.four.add_command(label="DELETING FACULTY DETAILS", command=DeleteFaculty)
+        self.four.add_command(label="DELETING FACULTY    DETAILS", command=DeleteFaculty)
 
         # creating fifth menu list
         self.five = Menu(self.mainmenu)
@@ -192,7 +190,7 @@ class ThirdWindow:
         self.seven.add_command(label="((''..''))...QUIT...((''..''))", command=back)
 
     def add_frame(self):
-        self.image = ImageTk.PhotoImage(Image.open("C:\\Users\\Nikith\\PycharmProjects\\Bolt2.py\\images\\b.jpg"))
+        self.image = ImageTk.PhotoImage(Image.open("images/b.jpg"))
         self.label = Label(self.win, image=self.image)
         self.label.place(x=0, y=0)
 

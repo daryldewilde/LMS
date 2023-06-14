@@ -1,5 +1,4 @@
 
-url = 'https://docs.python.org/3.3/library/tk.html'
 
 Python GUI – tkinter:
     Out of all the GUI methods, tkinter is most commonly used method. It is a standard Python interface to the Tk GUI toolkit shipped

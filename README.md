@@ -20,8 +20,6 @@ satisfied and these include :
 - Python 3.7 or higher
   which you can obtain [here](https://www.python.org/downloads/).
   
-- Pycharm community 
-  which you can obtain [here](https://www.jetbrains.com/pycharm/download/#section=windows).
   
 - Sqlite3
   which you can obtain [here](https://sqlitebrowser.org/dl/).
@@ -40,13 +38,20 @@ satisfied and these include :
   
 - Installing tkinter packages (Optional).
 
-- Clone the repo or fork it.
 
 - Move into **Library_Management_System**.
 
 ## For Admin Login
 
 - USERNAME : Admin
-- PASSWORD : 160698
+- PASSWORD : 123456
 
 You can change Username and Password by Second page.py  
+
+ faculties
+ Electronics and Communications Engineering (ECE)
+ Mechanical Engineering (ME)
+Computer Science Engineering (CSE)
+Civil and Environmental Engineering (CIV )
+ Electrical and Electronics Engineering(EEE)
+ Industrial & Systems Engineering (ISE)

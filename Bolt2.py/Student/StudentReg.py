@@ -63,7 +63,7 @@ class StudentWindow:
         self.label3.config(font=("Times", 14, 'bold'))
         self.label3.place(x=80, y=160)
 
-        self.gender = ['None', 'Male', 'Female', 'Other']
+        self.gender = ['None', 'Male', 'Female']
         self.gen = tk.StringVar(self.frame)
         self.droplist = tk.OptionMenu(self.frame, self.gen, *self.gender)
         self.droplist.config(width=17)

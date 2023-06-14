@@ -45,8 +45,6 @@ class ViewFacultyDetailsWindow:
         self.tr.column('#0', minwidth=0, width=100, stretch=NO)
         self.tr.heading('#1', text='FULL_NAME')
         self.tr.column('#1', minwidth=0, width=100, stretch=NO)
-        self.tr.heading('#2', text='GENDER')
-        self.tr.column('#2', minwidth=0, width=100, stretch=NO)
         self.tr.heading('#3', text='DEPARTMENT')
         self.tr.column('#3', minwidth=0, width=100, stretch=NO)
         self.tr.heading('#4', text='CONTACT NO')

@@ -35,7 +35,7 @@ class MainWindow:
 
         # x, y = 70, 20
 
-        self.image = ImageTk.PhotoImage(Image.open("C:\\Users\\Nikith\\PycharmProjects\\Bolt2.py\\images\\man.png"))
+        self.image = ImageTk.PhotoImage(Image.open("images/man.png"))
         self.label = Label(self.frame, image=self.image)
         self.label.place(x=400, y=75)
 
@@ -60,8 +60,6 @@ class MainWindow:
         self.pswd = Entry(self.frame, font="Times 12", show="*")
         self.pswd.place(x=385, y=342)
 
-        self.checkbox = Checkbutton(self.frame, text="Keep me logged in").place(x=380, y=375)
-
         self.btn = Button(self.frame, text='LOGIN', width=15, bg='light grey', fg='black', font=("Times", 13, "bold"),
                           command=self.login)
         self.btn.place(x=380, y=410)
@@ -73,7 +71,7 @@ class MainWindow:
         )
 
         # if else condition for user authenticate..!
-        if self.user.get() == "Admin" and self.pswd.get() == "160698":
+        if self.user.get() == "Admin" and self.pswd.get() == "123456":
             nk.showinfo("Login info", "Welcome To \n Library Management System...!")
             self.win.destroy()
             t = Thirdpage.ThirdWindow()

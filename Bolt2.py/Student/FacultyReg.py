@@ -58,16 +58,16 @@ class FacultyWindow:
         self.name.place(x=255, y=122)
 
         # creating student sem label and entry field
-        self.label3 = Label(self.frame, text="GENDER")
-        self.label3.config(font=("Times", 14, 'bold'))
-        self.label3.place(x=80, y=160)
+        # self.label3 = Label(self.frame, text="GENDER")
+        # self.label3.config(font=("Times", 14, 'bold'))
+        # self.label3.place(x=80, y=160)
 
-        self.gender = ['None', 'Male', 'Female']
-        self.gen = tk.StringVar(self.frame)
-        self.droplist = tk.OptionMenu(self.frame, self.gen, *self.gender)
-        self.droplist.config(width=17)
-        self.gen.set(self.gender[0])
-        self.droplist.place(x=255, y=162)
+        # self.gender = ['None', 'Male', 'Female']
+        # self.gen = tk.StringVar(self.frame)
+        # self.droplist = tk.OptionMenu(self.frame, self.gen, *self.gender)
+        # self.droplist.config(width=17)
+        # self.gen.set(self.gender[0])
+        # self.droplist.place(x=255, y=162)
 
         # self.gen = StringVar()
         # self.r1 = Radiobutton(self.frame, text='Male', variable=self.gen, value="Male").place(x=200, y=162)
@@ -135,7 +135,6 @@ class FacultyWindow:
         data = (
             self.id.get(),
             self.name.get(),
-            self.gen.get(),
             self.dept.get(),
             self.con.get()
         )
